@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="E:/cumber2/maven_final">
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="version" value="latest"></parameter>
+        <parameter name="platform" value="windows"/>
+        <classes>
+            <class name="runner.TestRunner"></class>
+        </classes>
+    </test>
+</suite>
